@@ -1,0 +1,361 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*--- reset---*/
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+.top_corrida{
+    background-color: #8fb82a;
+    padding: 0 0 0.2em 0;
+    box-sizing: border-box;
+
+}
+.top-corrida01{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.top-logo{
+    display: flex;
+}
+
+.top-logo a{
+    font-size: 2em;
+    padding: 1% 0 0 0;
+    color: white;
+    cursor:pointer;
+}
+.top-logo a:hover{
+    color: #3b4d0f;
+}
+.top-logo .logo-topo{
+    display:flex;
+    width: 15%;
+    padding: 2%;
+    filter:contrast(0%) brightness(2);
+}
+
+.top-contato{
+    display: flex;
+
+}
+.top-contato a{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em  0 0 0.3em;
+}
+
+.top-contato a:hover{
+    color:#3b4d0f;
+}
+
+/*-------topo---------*/
+
+.id-marcas-atleta{
+    background-color:#7092b1;
+    
+}
+.cont-atleta{
+    display: flex;
+    width: 100%;
+    position: relative;
+    
+}
+
+.logo-01{
+    width: 75%;
+    text-align: center;
+    padding: 1em;
+}
+#logo-realiza img{
+    box-sizing: border-box;
+    padding: 6%;
+    width: 100%;
+
+   
+}
+.logo-apoio{
+    display: flex;   
+    justify-content: space-around;
+    padding: 0 0 1em 0;
+}
+
+.logo-apoio .logo-apoio2{
+    display: flex;
+}
+#logo-ap{
+    display: flex;
+    width:8em;
+}
+#logo-ap:hover{
+    filter: invert(1);
+}
+
+#img-atleta01{
+    display: flex;
+    right: 0;
+    position: absolute;
+   width: 25%;
+}
+
+/*---parte atleta----*/
+
+.pt-inscricoes{
+   background-color:#cccfd1;
+}
+.conteiner-inscricoes{
+    text-align: center;
+    width: 100%;
+}
+.pt-etapas{
+    display:block;
+    color: #192b3c;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 100%;
+    border: 2px ;
+    border-bottom: 1px solid #192b3c ;
+}
+.corrida-destaque{
+    display: flex;
+}
+.corrida01{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+.corrida01-h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #192b3c;
+    padding: 1em 0 0 0;
+    
+}
+.corrida01 p{
+    font-size: 1.3em;
+    padding: 0 0 1em 0;
+    color: #192b3c;
+    transform: translateY(-10px);
+}
+.corrida01 a{
+    padding: 0 2em;
+    border-radius: 6px;
+    border: 1px solid #192b3c;
+    background-color: white;
+    color: #192b3c;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.corrida01 a:hover{
+    background-color: #192b3c;
+    color: white;
+}
+.categoria01{
+    color: #192b3c;
+    text-align: left;
+}
+.categoria01-p{
+    padding-bottom: 1em;
+}
+.km-destaque{
+    font-size: 2em;
+}
+.valor-destaque{
+    font-size: 1.3em;
+    transform: translateY(-10px);
+}
+
+/*---parte destaque----*/
+
+.calendario{
+    background-color: #f68500;
+    
+}
+.conteiner-calendario{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.calendario-titulo-h2{
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    padding: 0.5em 0 0 0;
+    
+}
+.destaque-data{
+    display: inline-flex;
+    width: 100%;
+   justify-content: right;
+    padding: 0 0 1em 0;
+}
+
+.destaque-data-p{
+    padding: 0 0.3em 0 0;
+    font-weight: 300;
+}
+.destaque-pi{
+    display: flex;
+    line-height: 10px;
+    padding: 0 1em 0 0;
+}
+.destaque-pi::after{
+    content:"";
+    width: 15px;
+    height: 15px;
+    background-color:yellow;
+   
+}
+.destaque-ei{
+    display: flex;
+    line-height: 10px;
+    padding: 0 1em 0 0;
+}
+.destaque-ei::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
+.destaque-dc{
+    display: flex;
+    line-height: 10px;
+    padding: 0 1em 0 0;
+}
+.destaque-dc::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: greenyellow;
+}
+
+.conteiner-cal02{
+    display: flex;
+}
+.lista-corrida{
+    width: 25%;
+    text-align: left;
+    
+}
+.corridas-nome-h2{
+    font-weight: lighter;
+    font-size: 1.5em;
+    padding: 0.5em 0 0 0;
+}
+.corridas-nome-h3{
+    font-size: 15px;
+    transform: translateY(-8px);
+    font-weight:400;
+    letter-spacing: 0.1em;
+    padding: 0 0 0.5em 0;
+}
+.Corrida-ativa{
+    color: #3f2507;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 6px;
+    padding:0 1em;
+}
+.Corrida-ativa:hover{
+    color: #ffffff;
+    background-color: rgb(36, 2, 255);
+
+}
+.Cor-esp{
+    color: #3f2507;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color:#ffb764;
+    border-radius: 6px;
+    padding:0 1em;
+}
+.Cor-esp:hover{
+    color: #3f0000;
+    background-color:#ff0000;
+}
+
+/*----calendario----*/
+ul {list-style-type: none;
+}
+.Calendario-2022{
+    width: 75%;  
+    padding: 0 0 1em 0;
+}
+.calendario-linha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.calendario-12mes{
+ max-width: 180px;
+
+}
+.mes-cal{
+   
+    color: white;
+    text-transform: uppercase;
+    padding: 4px;
+    letter-spacing: 0.3em;
+}
+ 
+  .weekdays li {
+    display: inline-block;
+    width: 12%;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+  }
+ 
+  .days{
+   background-color: #ff9a28;
+
+  }
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: white;
+    
+  }
+  .days .mes-intivo{
+      color: #ffbf75;
+  }
+
+/*----calendario----*/
+.assinatura{
+    background-color: grey;
+    
+}
+.ass-final{
+    width: 100%;
+    text-align: center;
+    padding: 5em;
+    letter-spacing: 0.3em;
+    color: white;
+}
+.end-contato a{
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em  0 0 0.3em;
+}
+
+.end-contato a:hover{
+    color:#ff9a28;
+}

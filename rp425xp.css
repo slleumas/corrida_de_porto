@@ -1,0 +1,90 @@
+@media screen and (max-width:425px){
+    .logo-01{
+        width: 85%;
+        
+    }
+    .top-logo .logo-topo{
+        display: flex;
+        width: 50px;
+    }
+    #logo-ap{
+        display: flex;
+        width:3em;
+    }
+   
+.corrida-destaque{
+    display: block;
+    text-align: center;
+    width: 100%;
+    border: 2px ;
+}
+.corrida01{
+    width: 100%;
+}
+.categoria01{
+    text-align: center;
+}
+.calendario-titulo-h2{
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+    letter-spacing: 0.2em;
+    padding: 0.5em;
+}
+
+.destaque-data-p{
+    font-size: 12px;
+}
+
+/*-------------------------------*/
+
+.lista-corrida{
+    width: 40%;
+    padding: 0 0 1em 0;
+}
+
+.Calendario-2022{
+    width: 60%;  
+    padding: 0 0 1em 0;
+    overflow: hidden;
+    height: 500px;
+}
+.calendario-12mes{
+    max-width: 160px;
+}
+.corridas-nome-h2{
+    font-size: 14px;
+}
+.corridas-nome-h3{
+    font-size: 12px;
+}
+.Corrida-ativa{
+    font-size: 12px;
+}
+.calendario-linha{
+    height: 100%;
+    overflow-y: scroll; 
+}
+.calendario-linha::-webkit-scrollbar{
+    width: 10px;
+    border: 1px solid white;
+}
+.calendario-linha::-webkit-scrollbar-thumb{
+    background-color:rgb(255, 208, 122);
+    border-radius: 6px;
+}
+
+/*------------*/
+.ass-final{
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+    letter-spacing: 0;
+}
+.end-contato a{
+    font-size: 1.2em;
+    padding: 0.5em  0 0 0.3em;
+}
+
+
+}

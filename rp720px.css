@@ -1,0 +1,48 @@
+@media screen and (max-width:720px){
+
+    .top-corrida01{
+        display: block;
+        
+        width: 100%;
+    }
+    .top-logo{
+        width: 100%;
+       justify-content: center;
+    }
+    .top-logo a{ 
+        line-height: 60px;
+    }
+    .top-logo .logo-topo{
+        display: flex;
+        width: 80px;
+    }
+    .top-contato{
+        justify-content: center;
+    }
+    .top-contato a{
+        margin: 0;
+        color: white;
+        font-size: 1.4em;
+        padding: 0  0 1em 0.3em;
+    }
+/*---------- parte 01 ------------*/
+.logo-01{
+    width: 60%;
+}
+
+#logo-realiza img{
+    width: 100%;
+}
+#logo-ap{
+    display: flex;
+    width: 5em;
+}
+.Corrida-ativa{
+    font-size: 0.8em;
+}
+.Cor-esp{
+    font-size: 0.8em;
+}
+
+
+}

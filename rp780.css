@@ -1,0 +1,30 @@
+@media screen and (max-width:780px){
+
+.top-logo a{
+    font-size: 1.5em;
+}
+    /*------------*/
+.corrida01-h2{
+    font-size: 1.5em;
+}
+.km-destaque{
+    font-size: 1.5em;
+}
+.valor-destaque{
+    font-size: 1em;
+}
+.calendario-titulo-h2{
+    font-size: 1em;
+}
+.destaque-data-p{
+    font-size: 12px;
+}
+
+.corridas-nome-h2{
+    font-size: 1.3em;
+}
+.corridas-nome-h3{
+    font-size: 12px;
+    transform: translateY(-2px);
+}
+}
